@@ -1,0 +1,7 @@
+git rm -r --cached node_modules
+git add .
+git commit -m "Initial commit without node_modules"
+node_modules/
+.env
+.DS_Store
+*.log
